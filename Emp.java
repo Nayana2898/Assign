@@ -6,7 +6,7 @@ class Employee
           int salary;
           String job;
                     Scanner sc =  new Scanner(System.in);
-                      void read( )
+                    void read( )
                                   {
                                        System.out.println("enter your name:");
                                        name=sc.next();  
@@ -18,14 +18,14 @@ class Employee
                                        job=sc.next();
                                    }
                    void display( )
-                                  {
+                                   {
                                       System.out.println("name:"+name+" \n age:"+age+ "\n salary:"+salary+"\n job:"+job);
-                                  }
+                                   }
                    void raise( )
-                                 {
+                                   {
                                       salary=salary+1000;
                                       System.out.println("salary raised......");
-                                 }
+                                   }
 }
 public class Emp
 {
