@@ -48,9 +48,15 @@ public static void main(String[] args)
 			case 1: e.read();
 				r=true;
 				break;
-  			case 2: e.display();
+  			case 2: if(b)
+				e.display();
+				else System.out.println("No records...")
 				break;
-			case 3: e.raise();
+			case 3: if(b)
+				e.raise();
+				else System.out.println("No records...")
+				break;
+			case 4: System.out.println("Exit")
 				break;
 	        }
 	}while(c<4);
