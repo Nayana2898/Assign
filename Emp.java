@@ -33,6 +33,7 @@ public static void main(String[] args)
 { 
 	Scanner sc =  new Scanner(System.in);
         Employee e = new Employee();
+	boolean b=false;
         int c;
         do
         {
@@ -45,6 +46,7 @@ public static void main(String[] args)
                 switch(c)
 	        {
 			case 1: e.read();
+				r=true;
 				break;
   			case 2: e.display();
 				break;
