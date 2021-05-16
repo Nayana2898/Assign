@@ -56,10 +56,11 @@ public static void main(String[] args)
 				e.raise();
 				else System.out.println("No records...")
 				break;
-			case 4: System.out.println("Exit")
+			case 4: System.out.println("Exiting...!!")
 				break;
+			default: System.out.println("Invalid Choice");
 	        }
-	}while(c<4);
+	}while(c>0 && c<4);
 }
 }
 
