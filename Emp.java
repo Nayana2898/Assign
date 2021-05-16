@@ -46,18 +46,18 @@ public static void main(String[] args)
                 switch(c)
 	        {
 			case 1: e.read();
-				r=true;
+				b=true;
 				break;
   			case 2: if(b)
 				e.display();
-				else System.out.println("No records...")
+				else System.out.println("No records...");
 				break;
 			case 3: if(b)
 				e.raise();
-				else System.out.println("No records...")
+				else System.out.println("No records...");
 				break;
 			case 4: System.out.println("Exiting...!!")
-				break;
+				
 			default: System.out.println("Invalid Choice");
 	        }
 	}while(c>0 && c<4);
